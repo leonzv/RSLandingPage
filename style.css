@@ -2,10 +2,13 @@ html,
 body {
     background-image: linear-gradient(#7F00FF, #060873);
     display: flex;
-    max-width: 100%;
-    height: 170%;
+    max-width: 100vw;
+    height: 240%;
     flex-direction: column;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Rubik-Regular;
 }
 
 .header2 {
@@ -21,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 20%;
-    height: 120px;
+    height: 110px;
     align-self: center;
 }
 
@@ -31,31 +34,307 @@ body {
 }
 
 .banner {
-    width: 100%;
-    height: 210px;
     position: relative;
     display: flex;
 }
 
-.bannerDiv {
-    align-items: flex-start;
-    height: 100%;
-    width: 95%;
-    background-color: #260162;
+.bannerIn {
+    width: 100%;
+    height: 220px;
+    position: relative;
     display: flex;
 }
-.whiteBanner{
-    position: absolute; 
+
+
+
+.bannerDiv {
+    height: 95%;
+    width: 95%;
+    background-image: linear-gradient(#30006D, #1C0371);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.whiteBanner {
+    position: absolute;
     background-color: white;
     align-items: center;
     justify-content: center;
     display: flex;
     height: 50%;
-    width: 300px;
+    width: 350px;
     flex-direction: row;
 }
-.textCriar{
-    font-size: 1.2vw;
+
+.textCriar {
+    font-size: 1.4vw;
     color: black;
     display: flex;
+    margin-left: 9%;
+}
+
+.phone {
+    width: auto;
+    height: 100%;
+    margin-right: 9%;
+}
+
+.yellowCircle {
+    height: 200px;
+    width: 200px;
+    background: #FFCB00;
+    align-self: flex-end;
+    display: flex;
+    border-radius: 100%;
+    right: -45px;
+    top: 70px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.01px;
+}
+
+.circleText {
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    font-family: Rubik-Regular;
+    font-weight: bold;
+}
+
+.titleText {
+    color: white;
+    font-size: 1.4vw;
+    text-align: center;
+    align-self: center;
+    margin-top: 2.5%;
+    max-width: 55%;
+    position: relative;
+    display: flex;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    color: white;
+    max-width: 40%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: white;
+    max-width: 40%;
+    text-align: center;
+    margin: 0px;
+}
+
+.tabela {
+    width: 80%;
+    height: 220px;
+    margin-top: 5%;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0px;
+    margin-top: 5%;
+}
+
+.tabela2 {
+    width: 80%;
+    height: 220px;
+    margin-top: 5%;
+    margin: 0px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.whiteLineDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.whiteLineHorizontal {
+    background: white;
+    width: 30%;
+    height: 1.5px;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.items {
+    display: flex;
+    position: relative;
+    width: 7%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textTabela {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    max-width: 160px;
+}
+
+.swiper-container {
+    width: 85%;
+    height: 240px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+}
+
+.whiteLineVertical {
+    background-color: white;
+    height: 105%;
+    width: 1.7px;
+    border-radius: 100%;
+}
+
+.swiperTitle {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.swiper-slide {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.greenBtn {
+    background-color: #007D2D;
+    width: 500px;
+    min-height: 55px;
+    border-radius: 2px;
+    border-color: #007D2D;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    bottom: 125px;
+    right: 40px;
+    position: relative;
+}
+
+.licenseText {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5%;
+    position: relative;
+    right: 40px;
+    bottom: 125px;
+}
+
+.gradientBar {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 10px;
+    width: 45%;
+}
+
+.gradientBar1 {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 10px;
+    width: 9%;
+    position: absolute;
+    display: flex;
+    right: 0px;
+}
+
+.gradientBar2 {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 10px;
+    width: 8%;
+    position: absolute;
+    display:flex;  
+    left: 0px;  
+    margin-top: 160px;
+}
+
+.gradientBar3 {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 12px;
+    position: absolute;
+    display:flex;
+    width: 7%;
+    right: 0px;
+    bottom: -700px;
+}
+
+.gradientBar4 {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 12px;
+    position: absolute;
+    display:flex;
+    width: 8%;
+    left: 0px;  
+    margin-top: 160px;
+    bottom: -700px;
+}
+
+.gradientBar5 {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 12px;
+    position: absolute;
+    display:flex;
+    width: 8%;
+    right: 0px;
+    bottom: -1200px;
+}
+
+.gradientBar6 {
+    background-image: linear-gradient(to left,#4400FF, #00B3FF);
+    height: 12px;
+    position: absolute;
+    display:flex;
+    width: 8%;
+    left: 0px;  
+    bottom: -1180px;
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url('assets/fonts/Rubik-Regular.ttf');
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#060873, #7F00FF);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
 }
